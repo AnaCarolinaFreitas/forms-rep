@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(245, 244, 243);
+    color: black;
+    padding: 20px;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: rgb(226, 209, 255);
+    ;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(245, 244, 243);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(226, 209, 255);
+
+}
+
+form fieldset{
+    border: 1px solid rgb(226, 209, 255);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+form legend{
+    padding: 0 10px;
+    font-weight: bold;
+    color: rgb(226, 209, 255);
+}
+
+form input[type="text"]
+form input[type="email"]
+form input[type="password"]
+form input[type="number"]
+form input[type="date"]
+form input[type="url"]
+form select,
+form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(226, 209, 255);
+    border-radius: 5px;
+}
+form input[type="radio"],
+form input[type="checkbox"]{
+    margin-right: 10px;
+}
+form button{
+    cursor: pointer;
+    background-color: rgb(226, 209, 255);
+    color: rgb(245, 244, 243);
+    border: none;
+    padding:10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form button:houver{
+    background-color: rgb(226, 209, 255);
+}
